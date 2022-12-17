@@ -1,0 +1,230 @@
+*,::before,::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+}
+/*style for the navbar*/
+.nav-image{
+    display: inline-block;
+    width: 49%;
+}
+.nav-icon{
+    display: inline-block;
+    width: 49%;
+}
+.nav-image img{
+    width: 30%;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 40px;
+}
+.nav-icon ul{
+    text-align: justify;
+}
+.nav-icon ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-icon ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/*start style for section*/
+.section-info{
+    padding: 120px;
+    text-align: center;
+}
+.section-info h1{
+          color: gray;
+          font-weight: 900;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 30px;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+}
+.section-info #section-head{
+            font-size: 40px;
+            font-weight: bolder;
+            color: white;
+}
+.section-info p {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(233, 225, 227, 0.5);
+    
+}
+#first{
+    padding: 15px;
+    color: rgb(243, 239, 232);
+    background-color:rgb(101, 81, 45) ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid transparent;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+#second{
+    padding: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+/*third part*/
+.sub-container{
+    margin-top: 40px;
+}
+.sub-image{
+    display: inline-block;
+    width: 45%;
+
+}
+.sub-image img{
+    width: 100%;
+    margin-left: 20px;
+    text-align: center;
+}
+.sub-info{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-left: 30px;
+    vertical-align: top;
+    padding: 50px 0 ;
+}
+.sub-info h2{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.sub-info p {
+
+    line-height: 30px;
+    color: gray;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 13px;
+}
+.sub-info ul{
+    margin-top: 30px;
+    text-align: left;
+}
+.sub-info ul li {
+    list-style-type: none;
+}
+.sub-info ul img{
+    width: 40px;
+    height: 40px;
+}
+.sub-info ul div{
+    display: inline-block;
+}
+.sub-info ul p{
+    padding-top: 5px;
+    height: 40px;
+    vertical-align: top;
+}
+.sub-info ul img , p{
+    display: inline-block;
+}
+/*forth section*/
+.thirdContainer{
+    padding: 50px 0;
+    margin-top: 30px;
+    background-color: #F8F8F8;
+}
+.third-info{
+    padding: 50px 0;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+.third-image{
+    display: inline-block;
+    width: 49%;
+}
+.third-image img{
+    width: 100%;
+}
+/*5555555*/
+.fifth-info{
+    margin-top: 20px;
+    text-align: center;
+}
+.fifth-info h2{
+    font-weight: 700;
+    color: black;
+}
+.fifth-info p{
+    color: black;
+    font-weight: 400;
+}
+.fifth{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+.fifth p{
+    color: gray;
+    font-size: smaller;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.fifth img{
+    width: 100%;
+}
+.clr{   
+ clear: left;
+}
+/**/
+.sixth-section{
+    padding-top: 30px;
+}
+.sixth-info{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.sixth-info h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.icon-sixth h4{
+    display: inline;
+    padding: 10px;
+}
+.sixth-info i{
+    display: inline;
+    padding: 20px;
+    padding: 10px;
+}
+
+.sixth-img{
+    display: inline-block;
+    width: 49%;
+}
+.sixth-img img{
+    width: 100%;
+}
